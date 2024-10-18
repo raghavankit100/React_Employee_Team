@@ -1,0 +1,28 @@
+body{
+  margin:0%;
+  padding:0%;
+  background-color: white;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  padding: 2vw 25vw;
+}
+
+.employee-list, .team-list {
+  border: 1px solid #0f0c0c;
+  padding: 20px;
+  width: 50%;
+}
+
+.employee-item, .team-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background-color: #f3f1f1;
+}
+
+button {
+  margin-left: 10px;
+}
